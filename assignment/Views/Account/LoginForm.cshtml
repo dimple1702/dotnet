@@ -1,0 +1,37 @@
+﻿@model LoginForm
+@{
+    ViewData["title"] = "Login Form";
+    Layout = null;
+    var message = TempData["Error"];
+}
+<div style="margin:20px">
+    <h1>Login Form</h1>
+
+    @using (var form = Html.BeginForm("LoginForm", "Account", FormMethod.Post, new { id = "LoginForm"}))
+    {
+        @if (message != null)
+        {
+            <div style="color:#cc0000">@message</div>
+        }
+
+        <div class="form-group" style="margin:3px;">
+            @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.UserName, "", new { id = "UserName_ErrorMessage", @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group" style="margin:3px;">
+            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.PasswordFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Password, "", new { id = "Password_ErrorMessage", @class = "text-danger" })
+            </div>
+        </div>
+        <input type="button" value="Submit" style="margin:3px" onclick="submitForm()" />
+    }
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/login.js"></script>

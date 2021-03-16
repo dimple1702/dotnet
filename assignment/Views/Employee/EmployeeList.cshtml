@@ -1,0 +1,54 @@
+﻿@model IEnumerable<assignment.Models.Employee>
+
+@{
+    ViewData["Title"] = "EmployeeList";
+    var message = ViewData["Error"];
+}
+
+
+
+<h1>EmployeeList</h1>
+@if (message != null)
+{
+    <div style="color:#cc0000"><h4>@message</h4></div>
+}
+<p>
+    <a asp-action="AddEmployee">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dob)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Designation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dob)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Designation)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditEmployee", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "ViewEmployee", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "DeleteEmployee", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

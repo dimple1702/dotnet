@@ -1,0 +1,9 @@
+E:\TestApplicationEntities\bin\Debug\netstandard2.0\TestApplicationEntities.deps.json
+E:\TestApplicationEntities\bin\Debug\netstandard2.0\TestApplicationEntities.dll
+E:\TestApplicationEntities\bin\Debug\netstandard2.0\TestApplicationEntities.pdb
+E:\TestApplicationEntities\obj\Debug\netstandard2.0\TestApplicationEntities.csprojAssemblyReference.cache
+E:\TestApplicationEntities\obj\Debug\netstandard2.0\TestApplicationEntities.AssemblyInfoInputs.cache
+E:\TestApplicationEntities\obj\Debug\netstandard2.0\TestApplicationEntities.AssemblyInfo.cs
+E:\TestApplicationEntities\obj\Debug\netstandard2.0\TestApplicationEntities.csproj.CoreCompileInputs.cache
+E:\TestApplicationEntities\obj\Debug\netstandard2.0\TestApplicationEntities.dll
+E:\TestApplicationEntities\obj\Debug\netstandard2.0\TestApplicationEntities.pdb

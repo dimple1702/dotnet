@@ -1,0 +1,12 @@
+E:\TestApplicationDO\bin\Debug\netstandard2.0\TestApplicationDO.deps.json
+E:\TestApplicationDO\bin\Debug\netstandard2.0\TestApplicationDO.dll
+E:\TestApplicationDO\bin\Debug\netstandard2.0\TestApplicationDO.pdb
+E:\TestApplicationDO\bin\Debug\netstandard2.0\TestApplicationEntities.dll
+E:\TestApplicationDO\bin\Debug\netstandard2.0\TestApplicationEntities.pdb
+E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.csprojAssemblyReference.cache
+E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.AssemblyInfoInputs.cache
+E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.AssemblyInfo.cs
+E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.csproj.CoreCompileInputs.cache
+E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.csproj.CopyComplete
+E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.dll
+E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.pdb

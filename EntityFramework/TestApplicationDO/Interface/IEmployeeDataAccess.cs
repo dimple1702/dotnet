@@ -7,6 +7,8 @@ namespace TestApplicationDO.Interface
 {
     public interface IEmployeeDataAccess
     {
-        List<Employee> GetEmployees(); 
+        List<Employee> GetEmployees();
+        Employee GetEmployeeById(long Id);
+        long InsertEmployee(Employee employee);
     }
 }

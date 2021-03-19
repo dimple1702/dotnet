@@ -12,3 +12,17 @@ E:\TestApplicationBO\obj\Debug\netstandard2.0\TestApplicationBO.dll
 E:\TestApplicationBO\obj\Debug\netstandard2.0\TestApplicationBO.pdb
 E:\TestApplicationBO\bin\Debug\netstandard2.0\TestApplicationDO.dll
 E:\TestApplicationBO\bin\Debug\netstandard2.0\TestApplicationDO.pdb
+E:\dotnet\EntityFramework\TestApplicationBO\bin\Debug\netstandard2.0\TestApplicationBO.deps.json
+E:\dotnet\EntityFramework\TestApplicationBO\bin\Debug\netstandard2.0\TestApplicationBO.dll
+E:\dotnet\EntityFramework\TestApplicationBO\bin\Debug\netstandard2.0\TestApplicationBO.pdb
+E:\dotnet\EntityFramework\TestApplicationBO\bin\Debug\netstandard2.0\TestApplicationDO.dll
+E:\dotnet\EntityFramework\TestApplicationBO\bin\Debug\netstandard2.0\TestApplicationEntities.dll
+E:\dotnet\EntityFramework\TestApplicationBO\bin\Debug\netstandard2.0\TestApplicationDO.pdb
+E:\dotnet\EntityFramework\TestApplicationBO\bin\Debug\netstandard2.0\TestApplicationEntities.pdb
+E:\dotnet\EntityFramework\TestApplicationBO\obj\Debug\netstandard2.0\TestApplicationBO.csprojAssemblyReference.cache
+E:\dotnet\EntityFramework\TestApplicationBO\obj\Debug\netstandard2.0\TestApplicationBO.AssemblyInfoInputs.cache
+E:\dotnet\EntityFramework\TestApplicationBO\obj\Debug\netstandard2.0\TestApplicationBO.AssemblyInfo.cs
+E:\dotnet\EntityFramework\TestApplicationBO\obj\Debug\netstandard2.0\TestApplicationBO.csproj.CoreCompileInputs.cache
+E:\dotnet\EntityFramework\TestApplicationBO\obj\Debug\netstandard2.0\TestApplicationBO.csproj.CopyComplete
+E:\dotnet\EntityFramework\TestApplicationBO\obj\Debug\netstandard2.0\TestApplicationBO.dll
+E:\dotnet\EntityFramework\TestApplicationBO\obj\Debug\netstandard2.0\TestApplicationBO.pdb

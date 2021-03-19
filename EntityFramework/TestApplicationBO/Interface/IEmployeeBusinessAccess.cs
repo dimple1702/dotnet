@@ -8,5 +8,7 @@ namespace TestApplicationBO.Interface
     public interface IEmployeeBusinessAccess    
     {
         List<Employee> GetEmployees();
+        Employee GetEmployeeById(long Id);
+        long InsertEmployee(Employee employee);
     }
 }

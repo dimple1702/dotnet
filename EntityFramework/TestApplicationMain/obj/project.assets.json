@@ -7344,11 +7344,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\TestApplicationMain\\TestApplicationMain.csproj",
+      "projectUniqueName": "E:\\dotnet\\EntityFramework\\TestApplicationMain\\TestApplicationMain.csproj",
       "projectName": "TestApplicationMain",
-      "projectPath": "E:\\TestApplicationMain\\TestApplicationMain.csproj",
+      "projectPath": "E:\\dotnet\\EntityFramework\\TestApplicationMain\\TestApplicationMain.csproj",
       "packagesPath": "C:\\Users\\Atul Verma\\.nuget\\packages\\",
-      "outputPath": "E:\\TestApplicationMain\\obj\\",
+      "outputPath": "E:\\dotnet\\EntityFramework\\TestApplicationMain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Atul Verma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7365,8 +7365,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\TestApplicationBO\\TestApplicationBO.csproj": {
-              "projectPath": "E:\\TestApplicationBO\\TestApplicationBO.csproj"
+            "E:\\dotnet\\EntityFramework\\TestApplicationBO\\TestApplicationBO.csproj": {
+              "projectPath": "E:\\dotnet\\EntityFramework\\TestApplicationBO\\TestApplicationBO.csproj"
             }
           }
         }

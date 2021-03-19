@@ -6330,11 +6330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\TestApplicationEntities\\TestApplicationEntities.csproj",
+      "projectUniqueName": "E:\\dotnet\\EntityFramework\\TestApplicationEntities\\TestApplicationEntities.csproj",
       "projectName": "TestApplicationEntities",
-      "projectPath": "E:\\TestApplicationEntities\\TestApplicationEntities.csproj",
+      "projectPath": "E:\\dotnet\\EntityFramework\\TestApplicationEntities\\TestApplicationEntities.csproj",
       "packagesPath": "C:\\Users\\Atul Verma\\.nuget\\packages\\",
-      "outputPath": "E:\\TestApplicationEntities\\obj\\",
+      "outputPath": "E:\\dotnet\\EntityFramework\\TestApplicationEntities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Atul Verma\\AppData\\Roaming\\NuGet\\NuGet.Config",

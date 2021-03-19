@@ -10,3 +10,15 @@ E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.csproj.CoreCompi
 E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.csproj.CopyComplete
 E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.dll
 E:\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.pdb
+E:\dotnet\EntityFramework\TestApplicationDO\bin\Debug\netstandard2.0\TestApplicationDO.deps.json
+E:\dotnet\EntityFramework\TestApplicationDO\bin\Debug\netstandard2.0\TestApplicationDO.dll
+E:\dotnet\EntityFramework\TestApplicationDO\bin\Debug\netstandard2.0\TestApplicationDO.pdb
+E:\dotnet\EntityFramework\TestApplicationDO\bin\Debug\netstandard2.0\TestApplicationEntities.dll
+E:\dotnet\EntityFramework\TestApplicationDO\bin\Debug\netstandard2.0\TestApplicationEntities.pdb
+E:\dotnet\EntityFramework\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.csprojAssemblyReference.cache
+E:\dotnet\EntityFramework\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.AssemblyInfoInputs.cache
+E:\dotnet\EntityFramework\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.AssemblyInfo.cs
+E:\dotnet\EntityFramework\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.csproj.CoreCompileInputs.cache
+E:\dotnet\EntityFramework\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.csproj.CopyComplete
+E:\dotnet\EntityFramework\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.dll
+E:\dotnet\EntityFramework\TestApplicationDO\obj\Debug\netstandard2.0\TestApplicationDO.pdb

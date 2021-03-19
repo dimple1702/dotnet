@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\TestApplicationMain\\TestApplicationMain.csproj": {}
+    "E:\\dotnet\\EntityFramework\\TestApplicationMain\\TestApplicationMain.csproj": {}
   },
   "projects": {
-    "E:\\TestApplicationBO\\TestApplicationBO.csproj": {
+    "E:\\dotnet\\EntityFramework\\TestApplicationBO\\TestApplicationBO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TestApplicationBO\\TestApplicationBO.csproj",
+        "projectUniqueName": "E:\\dotnet\\EntityFramework\\TestApplicationBO\\TestApplicationBO.csproj",
         "projectName": "TestApplicationBO",
-        "projectPath": "E:\\TestApplicationBO\\TestApplicationBO.csproj",
+        "projectPath": "E:\\dotnet\\EntityFramework\\TestApplicationBO\\TestApplicationBO.csproj",
         "packagesPath": "C:\\Users\\Atul Verma\\.nuget\\packages\\",
-        "outputPath": "E:\\TestApplicationBO\\obj\\",
+        "outputPath": "E:\\dotnet\\EntityFramework\\TestApplicationBO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Atul Verma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "E:\\TestApplicationDO\\TestApplicationDO.csproj": {
-                "projectPath": "E:\\TestApplicationDO\\TestApplicationDO.csproj"
+              "E:\\dotnet\\EntityFramework\\TestApplicationDO\\TestApplicationDO.csproj": {
+                "projectPath": "E:\\dotnet\\EntityFramework\\TestApplicationDO\\TestApplicationDO.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "E:\\TestApplicationDO\\TestApplicationDO.csproj": {
+    "E:\\dotnet\\EntityFramework\\TestApplicationDO\\TestApplicationDO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TestApplicationDO\\TestApplicationDO.csproj",
+        "projectUniqueName": "E:\\dotnet\\EntityFramework\\TestApplicationDO\\TestApplicationDO.csproj",
         "projectName": "TestApplicationDO",
-        "projectPath": "E:\\TestApplicationDO\\TestApplicationDO.csproj",
+        "projectPath": "E:\\dotnet\\EntityFramework\\TestApplicationDO\\TestApplicationDO.csproj",
         "packagesPath": "C:\\Users\\Atul Verma\\.nuget\\packages\\",
-        "outputPath": "E:\\TestApplicationDO\\obj\\",
+        "outputPath": "E:\\dotnet\\EntityFramework\\TestApplicationDO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Atul Verma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "E:\\TestApplicationEntities\\TestApplicationEntities.csproj": {
-                "projectPath": "E:\\TestApplicationEntities\\TestApplicationEntities.csproj"
+              "E:\\dotnet\\EntityFramework\\TestApplicationEntities\\TestApplicationEntities.csproj": {
+                "projectPath": "E:\\dotnet\\EntityFramework\\TestApplicationEntities\\TestApplicationEntities.csproj"
               }
             }
           }
@@ -126,14 +126,14 @@
         }
       }
     },
-    "E:\\TestApplicationEntities\\TestApplicationEntities.csproj": {
+    "E:\\dotnet\\EntityFramework\\TestApplicationEntities\\TestApplicationEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TestApplicationEntities\\TestApplicationEntities.csproj",
+        "projectUniqueName": "E:\\dotnet\\EntityFramework\\TestApplicationEntities\\TestApplicationEntities.csproj",
         "projectName": "TestApplicationEntities",
-        "projectPath": "E:\\TestApplicationEntities\\TestApplicationEntities.csproj",
+        "projectPath": "E:\\dotnet\\EntityFramework\\TestApplicationEntities\\TestApplicationEntities.csproj",
         "packagesPath": "C:\\Users\\Atul Verma\\.nuget\\packages\\",
-        "outputPath": "E:\\TestApplicationEntities\\obj\\",
+        "outputPath": "E:\\dotnet\\EntityFramework\\TestApplicationEntities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Atul Verma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -197,14 +197,14 @@
         }
       }
     },
-    "E:\\TestApplicationMain\\TestApplicationMain.csproj": {
+    "E:\\dotnet\\EntityFramework\\TestApplicationMain\\TestApplicationMain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TestApplicationMain\\TestApplicationMain.csproj",
+        "projectUniqueName": "E:\\dotnet\\EntityFramework\\TestApplicationMain\\TestApplicationMain.csproj",
         "projectName": "TestApplicationMain",
-        "projectPath": "E:\\TestApplicationMain\\TestApplicationMain.csproj",
+        "projectPath": "E:\\dotnet\\EntityFramework\\TestApplicationMain\\TestApplicationMain.csproj",
         "packagesPath": "C:\\Users\\Atul Verma\\.nuget\\packages\\",
-        "outputPath": "E:\\TestApplicationMain\\obj\\",
+        "outputPath": "E:\\dotnet\\EntityFramework\\TestApplicationMain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Atul Verma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,8 +221,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\TestApplicationBO\\TestApplicationBO.csproj": {
-                "projectPath": "E:\\TestApplicationBO\\TestApplicationBO.csproj"
+              "E:\\dotnet\\EntityFramework\\TestApplicationBO\\TestApplicationBO.csproj": {
+                "projectPath": "E:\\dotnet\\EntityFramework\\TestApplicationBO\\TestApplicationBO.csproj"
               }
             }
           }

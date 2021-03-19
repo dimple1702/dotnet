@@ -14,9 +14,19 @@ namespace TestApplicationDO
             _employeeDbContext = employeeDbContext;
         }
 
-        List<Employee> IEmployeeDataAccess.GetEmployees()
+        public List<Employee> GetEmployees()
         {
             return _employeeDbContext.Employee.ToList();
+        }
+
+        public Employee GetEmployeeById(long Id)
+        {
+            return _employeeDbContext.Employee.FirstOrDefault(e => e.Id == Id);
+        }
+
+        public long InsertEmployee(Employee employee)
+        {
+            _employeeDataAcess.Employee.Add(employee);
         }
     }
 }

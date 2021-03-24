@@ -1,0 +1,14 @@
+E:\AssignmentEFBusiness\bin\Debug\netstandard2.0\AssignmentEFBusiness.deps.json
+E:\AssignmentEFBusiness\bin\Debug\netstandard2.0\AssignmentEFBusiness.dll
+E:\AssignmentEFBusiness\bin\Debug\netstandard2.0\AssignmentEFBusiness.pdb
+E:\AssignmentEFBusiness\bin\Debug\netstandard2.0\AssignmentEFData.dll
+E:\AssignmentEFBusiness\bin\Debug\netstandard2.0\AssignmentEFEntities.dll
+E:\AssignmentEFBusiness\bin\Debug\netstandard2.0\AssignmentEFData.pdb
+E:\AssignmentEFBusiness\bin\Debug\netstandard2.0\AssignmentEFEntities.pdb
+E:\AssignmentEFBusiness\obj\Debug\netstandard2.0\AssignmentEFBusiness.csprojAssemblyReference.cache
+E:\AssignmentEFBusiness\obj\Debug\netstandard2.0\AssignmentEFBusiness.AssemblyInfoInputs.cache
+E:\AssignmentEFBusiness\obj\Debug\netstandard2.0\AssignmentEFBusiness.AssemblyInfo.cs
+E:\AssignmentEFBusiness\obj\Debug\netstandard2.0\AssignmentEFBusiness.csproj.CoreCompileInputs.cache
+E:\AssignmentEFBusiness\obj\Debug\netstandard2.0\AssignmentEFBusiness.csproj.CopyComplete
+E:\AssignmentEFBusiness\obj\Debug\netstandard2.0\AssignmentEFBusiness.dll
+E:\AssignmentEFBusiness\obj\Debug\netstandard2.0\AssignmentEFBusiness.pdb

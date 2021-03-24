@@ -1,0 +1,9 @@
+E:\AssignmentEFEntities\bin\Debug\netstandard2.0\AssignmentEFEntities.deps.json
+E:\AssignmentEFEntities\bin\Debug\netstandard2.0\AssignmentEFEntities.dll
+E:\AssignmentEFEntities\bin\Debug\netstandard2.0\AssignmentEFEntities.pdb
+E:\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.csprojAssemblyReference.cache
+E:\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.AssemblyInfoInputs.cache
+E:\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.AssemblyInfo.cs
+E:\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.csproj.CoreCompileInputs.cache
+E:\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.dll
+E:\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.pdb

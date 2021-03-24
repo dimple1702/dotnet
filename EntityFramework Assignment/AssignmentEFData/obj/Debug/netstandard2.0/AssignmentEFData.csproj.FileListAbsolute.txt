@@ -1,0 +1,12 @@
+E:\AssignmentEFData\bin\Debug\netstandard2.0\AssignmentEFData.deps.json
+E:\AssignmentEFData\bin\Debug\netstandard2.0\AssignmentEFData.dll
+E:\AssignmentEFData\bin\Debug\netstandard2.0\AssignmentEFData.pdb
+E:\AssignmentEFData\bin\Debug\netstandard2.0\AssignmentEFEntities.dll
+E:\AssignmentEFData\bin\Debug\netstandard2.0\AssignmentEFEntities.pdb
+E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.csprojAssemblyReference.cache
+E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.AssemblyInfoInputs.cache
+E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.AssemblyInfo.cs
+E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.csproj.CoreCompileInputs.cache
+E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.csproj.CopyComplete
+E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.dll
+E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.pdb

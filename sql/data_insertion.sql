@@ -1,4 +1,4 @@
-use School;
+-- These are the tables that I had created first But the naming convention was wrong. 
 
 -- creating table country
 CREATE TABLE countries (

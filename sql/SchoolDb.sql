@@ -16,13 +16,20 @@ CREATE TABLE countries (
 	region_name VARCHAR(25) DEFAULT NULL
 );
 
-CREATE TABLE COUNTRY (
+-- creating new Table Country
+CREATE TABLE Country (
 	CountryId INT IDENTITY(1,1) PRIMARY KEY,
 	CountryCode CHAR (2),
 	CountryName VARCHAR (40) DEFAULT NULL,
 	RegionName VARCHAR(25) DEFAULT NULL
 );
 
+-- copying the data of one table into another
+INSERT INTO Country(CountryCode, CountryName, RegionName)
+SELECT country_code, country_name, region_name
+FROM countries;
+
+-- creating table Location
 CREATE TABLE [Location] (
 	LocId INT IDENTITY(1,1) PRIMARY KEY,
 	[Address] VARCHAR (50) DEFAULT NULL,
@@ -32,11 +39,13 @@ CREATE TABLE [Location] (
 	FOREIGN KEY (CountryId) REFERENCES Country (CountryId) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
+-- creating table Department
 CREATE TABLE Department (
 	DeptId INT IDENTITY(1,1) PRIMARY KEY,
 	DeptName VARCHAR (30) NOT NULL,
 );
 
+-- creating table Teacher
 CREATE TABLE Teacher (
 	TeacherId INT Identity(1,1) PRIMARY KEY,
 	TeacherFname VARCHAR(50) NOT NULL,
@@ -50,6 +59,7 @@ CREATE TABLE Teacher (
 	FOREIGN KEY (LocId) REFERENCES [Location] (LocId) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
+-- creating table Student
 CREATE TABLE Student (
 	StudentId INT IDENTITY(1,1) PRIMARY KEY,
 	StudentFname varchar(30) DEFAULT NULL,

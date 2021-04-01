@@ -18,10 +18,7 @@ namespace AssignmentEFMain.Controllers
             return View(list);
         }
 
-        public IActionResult AddEmployee()
-        {
-            return View();
-        }
+        
 
         [HttpPost]
         public IActionResult AddEmployee(EmployeeTable employee)

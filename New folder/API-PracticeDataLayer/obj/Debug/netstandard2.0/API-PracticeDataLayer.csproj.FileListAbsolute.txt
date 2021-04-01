@@ -1,0 +1,12 @@
+E:\dotnet\API-PracticeDataLayer\bin\Debug\netstandard2.0\API-PracticeDataLayer.deps.json
+E:\dotnet\API-PracticeDataLayer\bin\Debug\netstandard2.0\API-PracticeDataLayer.dll
+E:\dotnet\API-PracticeDataLayer\bin\Debug\netstandard2.0\API-PracticeDataLayer.pdb
+E:\dotnet\API-PracticeDataLayer\bin\Debug\netstandard2.0\API-PracticeEntities.dll
+E:\dotnet\API-PracticeDataLayer\bin\Debug\netstandard2.0\API-PracticeEntities.pdb
+E:\dotnet\API-PracticeDataLayer\obj\Debug\netstandard2.0\API-PracticeDataLayer.csprojAssemblyReference.cache
+E:\dotnet\API-PracticeDataLayer\obj\Debug\netstandard2.0\API-PracticeDataLayer.AssemblyInfoInputs.cache
+E:\dotnet\API-PracticeDataLayer\obj\Debug\netstandard2.0\API-PracticeDataLayer.AssemblyInfo.cs
+E:\dotnet\API-PracticeDataLayer\obj\Debug\netstandard2.0\API-PracticeDataLayer.csproj.CoreCompileInputs.cache
+E:\dotnet\API-PracticeDataLayer\obj\Debug\netstandard2.0\API-PracticeDataLayer.csproj.CopyComplete
+E:\dotnet\API-PracticeDataLayer\obj\Debug\netstandard2.0\API-PracticeDataLayer.dll
+E:\dotnet\API-PracticeDataLayer\obj\Debug\netstandard2.0\API-PracticeDataLayer.pdb

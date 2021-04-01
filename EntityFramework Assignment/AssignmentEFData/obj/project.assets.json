@@ -6281,11 +6281,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\AssignmentEFData\\AssignmentEFData.csproj",
+      "projectUniqueName": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFData\\AssignmentEFData.csproj",
       "projectName": "AssignmentEFData",
-      "projectPath": "E:\\AssignmentEFData\\AssignmentEFData.csproj",
+      "projectPath": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFData\\AssignmentEFData.csproj",
       "packagesPath": "C:\\Users\\Atul Verma\\.nuget\\packages\\",
-      "outputPath": "E:\\AssignmentEFData\\obj\\",
+      "outputPath": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Atul Verma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6302,8 +6302,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "E:\\AssignmentEFEntities\\AssignmentEFEntities.csproj": {
-              "projectPath": "E:\\AssignmentEFEntities\\AssignmentEFEntities.csproj"
+            "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFEntities\\AssignmentEFEntities.csproj": {
+              "projectPath": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFEntities\\AssignmentEFEntities.csproj"
             }
           }
         }

@@ -7,3 +7,12 @@ E:\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.AssemblyIn
 E:\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.csproj.CoreCompileInputs.cache
 E:\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.dll
 E:\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.pdb
+E:\dotnet\EntityFramework Assignment\AssignmentEFEntities\bin\Debug\netstandard2.0\AssignmentEFEntities.deps.json
+E:\dotnet\EntityFramework Assignment\AssignmentEFEntities\bin\Debug\netstandard2.0\AssignmentEFEntities.dll
+E:\dotnet\EntityFramework Assignment\AssignmentEFEntities\bin\Debug\netstandard2.0\AssignmentEFEntities.pdb
+E:\dotnet\EntityFramework Assignment\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.csprojAssemblyReference.cache
+E:\dotnet\EntityFramework Assignment\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.AssemblyInfoInputs.cache
+E:\dotnet\EntityFramework Assignment\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.AssemblyInfo.cs
+E:\dotnet\EntityFramework Assignment\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.csproj.CoreCompileInputs.cache
+E:\dotnet\EntityFramework Assignment\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.dll
+E:\dotnet\EntityFramework Assignment\AssignmentEFEntities\obj\Debug\netstandard2.0\AssignmentEFEntities.pdb

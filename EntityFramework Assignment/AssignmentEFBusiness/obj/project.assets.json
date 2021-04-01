@@ -6299,11 +6299,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\AssignmentEFBusiness\\AssignmentEFBusiness.csproj",
+      "projectUniqueName": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFBusiness\\AssignmentEFBusiness.csproj",
       "projectName": "AssignmentEFBusiness",
-      "projectPath": "E:\\AssignmentEFBusiness\\AssignmentEFBusiness.csproj",
+      "projectPath": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFBusiness\\AssignmentEFBusiness.csproj",
       "packagesPath": "C:\\Users\\Atul Verma\\.nuget\\packages\\",
-      "outputPath": "E:\\AssignmentEFBusiness\\obj\\",
+      "outputPath": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFBusiness\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Atul Verma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6320,8 +6320,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "E:\\AssignmentEFData\\AssignmentEFData.csproj": {
-              "projectPath": "E:\\AssignmentEFData\\AssignmentEFData.csproj"
+            "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFData\\AssignmentEFData.csproj": {
+              "projectPath": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFData\\AssignmentEFData.csproj"
             }
           }
         }

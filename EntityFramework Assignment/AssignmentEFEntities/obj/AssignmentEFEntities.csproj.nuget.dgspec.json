@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AssignmentEFEntities\\AssignmentEFEntities.csproj": {}
+    "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFEntities\\AssignmentEFEntities.csproj": {}
   },
   "projects": {
-    "E:\\AssignmentEFEntities\\AssignmentEFEntities.csproj": {
+    "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFEntities\\AssignmentEFEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AssignmentEFEntities\\AssignmentEFEntities.csproj",
+        "projectUniqueName": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFEntities\\AssignmentEFEntities.csproj",
         "projectName": "AssignmentEFEntities",
-        "projectPath": "E:\\AssignmentEFEntities\\AssignmentEFEntities.csproj",
+        "projectPath": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFEntities\\AssignmentEFEntities.csproj",
         "packagesPath": "C:\\Users\\Atul Verma\\.nuget\\packages\\",
-        "outputPath": "E:\\AssignmentEFEntities\\obj\\",
+        "outputPath": "E:\\dotnet\\EntityFramework Assignment\\AssignmentEFEntities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Atul Verma\\AppData\\Roaming\\NuGet\\NuGet.Config",

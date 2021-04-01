@@ -10,3 +10,15 @@ E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.csproj.CoreCompile
 E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.csproj.CopyComplete
 E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.dll
 E:\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.pdb
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\bin\Debug\netstandard2.0\AssignmentEFData.deps.json
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\bin\Debug\netstandard2.0\AssignmentEFData.dll
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\bin\Debug\netstandard2.0\AssignmentEFData.pdb
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\bin\Debug\netstandard2.0\AssignmentEFEntities.dll
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\bin\Debug\netstandard2.0\AssignmentEFEntities.pdb
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.csprojAssemblyReference.cache
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.AssemblyInfoInputs.cache
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.AssemblyInfo.cs
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.csproj.CoreCompileInputs.cache
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.csproj.CopyComplete
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.dll
+E:\dotnet\EntityFramework Assignment\AssignmentEFData\obj\Debug\netstandard2.0\AssignmentEFData.pdb

@@ -1,0 +1,12 @@
+E:\dotnet\APISession\ApiPracticeDataLayer\bin\Debug\netcoreapp3.1\ApiPracticeDataLayer.deps.json
+E:\dotnet\APISession\ApiPracticeDataLayer\bin\Debug\netcoreapp3.1\ApiPracticeDataLayer.dll
+E:\dotnet\APISession\ApiPracticeDataLayer\bin\Debug\netcoreapp3.1\ApiPracticeDataLayer.pdb
+E:\dotnet\APISession\ApiPracticeDataLayer\bin\Debug\netcoreapp3.1\ApiPracticeEntities.dll
+E:\dotnet\APISession\ApiPracticeDataLayer\bin\Debug\netcoreapp3.1\ApiPracticeEntities.pdb
+E:\dotnet\APISession\ApiPracticeDataLayer\obj\Debug\netcoreapp3.1\ApiPracticeDataLayer.csprojAssemblyReference.cache
+E:\dotnet\APISession\ApiPracticeDataLayer\obj\Debug\netcoreapp3.1\ApiPracticeDataLayer.AssemblyInfoInputs.cache
+E:\dotnet\APISession\ApiPracticeDataLayer\obj\Debug\netcoreapp3.1\ApiPracticeDataLayer.AssemblyInfo.cs
+E:\dotnet\APISession\ApiPracticeDataLayer\obj\Debug\netcoreapp3.1\ApiPracticeDataLayer.csproj.CoreCompileInputs.cache
+E:\dotnet\APISession\ApiPracticeDataLayer\obj\Debug\netcoreapp3.1\ApiPracticeDataLayer.csproj.CopyComplete
+E:\dotnet\APISession\ApiPracticeDataLayer\obj\Debug\netcoreapp3.1\ApiPracticeDataLayer.dll
+E:\dotnet\APISession\ApiPracticeDataLayer\obj\Debug\netcoreapp3.1\ApiPracticeDataLayer.pdb

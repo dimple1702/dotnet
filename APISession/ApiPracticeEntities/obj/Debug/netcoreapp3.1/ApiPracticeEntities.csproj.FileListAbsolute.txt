@@ -1,0 +1,12 @@
+E:\dotnet\APISession\ApiPracticeEntities\bin\Debug\netcoreapp3.1\ApiPracticeEntities.deps.json
+E:\dotnet\APISession\ApiPracticeEntities\bin\Debug\netcoreapp3.1\ApiPracticeEntities.runtimeconfig.json
+E:\dotnet\APISession\ApiPracticeEntities\bin\Debug\netcoreapp3.1\ApiPracticeEntities.runtimeconfig.dev.json
+E:\dotnet\APISession\ApiPracticeEntities\bin\Debug\netcoreapp3.1\ApiPracticeEntities.dll
+E:\dotnet\APISession\ApiPracticeEntities\bin\Debug\netcoreapp3.1\ApiPracticeEntities.pdb
+E:\dotnet\APISession\ApiPracticeEntities\obj\Debug\netcoreapp3.1\ApiPracticeEntities.csprojAssemblyReference.cache
+E:\dotnet\APISession\ApiPracticeEntities\obj\Debug\netcoreapp3.1\ApiPracticeEntities.AssemblyInfoInputs.cache
+E:\dotnet\APISession\ApiPracticeEntities\obj\Debug\netcoreapp3.1\ApiPracticeEntities.AssemblyInfo.cs
+E:\dotnet\APISession\ApiPracticeEntities\obj\Debug\netcoreapp3.1\ApiPracticeEntities.csproj.CoreCompileInputs.cache
+E:\dotnet\APISession\ApiPracticeEntities\obj\Debug\netcoreapp3.1\ApiPracticeEntities.dll
+E:\dotnet\APISession\ApiPracticeEntities\obj\Debug\netcoreapp3.1\ApiPracticeEntities.pdb
+E:\dotnet\APISession\ApiPracticeEntities\obj\Debug\netcoreapp3.1\ApiPracticeEntities.genruntimeconfig.cache

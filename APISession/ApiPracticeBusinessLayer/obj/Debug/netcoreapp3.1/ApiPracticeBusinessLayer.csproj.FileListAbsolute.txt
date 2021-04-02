@@ -1,0 +1,14 @@
+E:\dotnet\APISession\ApiPracticeBusinessLayer\bin\Debug\netcoreapp3.1\ApiPracticeBusinessLayer.deps.json
+E:\dotnet\APISession\ApiPracticeBusinessLayer\bin\Debug\netcoreapp3.1\ApiPracticeBusinessLayer.dll
+E:\dotnet\APISession\ApiPracticeBusinessLayer\bin\Debug\netcoreapp3.1\ApiPracticeBusinessLayer.pdb
+E:\dotnet\APISession\ApiPracticeBusinessLayer\bin\Debug\netcoreapp3.1\ApiPracticeDataLayer.dll
+E:\dotnet\APISession\ApiPracticeBusinessLayer\bin\Debug\netcoreapp3.1\ApiPracticeEntities.dll
+E:\dotnet\APISession\ApiPracticeBusinessLayer\bin\Debug\netcoreapp3.1\ApiPracticeDataLayer.pdb
+E:\dotnet\APISession\ApiPracticeBusinessLayer\bin\Debug\netcoreapp3.1\ApiPracticeEntities.pdb
+E:\dotnet\APISession\ApiPracticeBusinessLayer\obj\Debug\netcoreapp3.1\ApiPracticeBusinessLayer.csprojAssemblyReference.cache
+E:\dotnet\APISession\ApiPracticeBusinessLayer\obj\Debug\netcoreapp3.1\ApiPracticeBusinessLayer.AssemblyInfoInputs.cache
+E:\dotnet\APISession\ApiPracticeBusinessLayer\obj\Debug\netcoreapp3.1\ApiPracticeBusinessLayer.AssemblyInfo.cs
+E:\dotnet\APISession\ApiPracticeBusinessLayer\obj\Debug\netcoreapp3.1\ApiPracticeBusinessLayer.csproj.CoreCompileInputs.cache
+E:\dotnet\APISession\ApiPracticeBusinessLayer\obj\Debug\netcoreapp3.1\ApiPracticeBusinessLayer.csproj.CopyComplete
+E:\dotnet\APISession\ApiPracticeBusinessLayer\obj\Debug\netcoreapp3.1\ApiPracticeBusinessLayer.dll
+E:\dotnet\APISession\ApiPracticeBusinessLayer\obj\Debug\netcoreapp3.1\ApiPracticeBusinessLayer.pdb

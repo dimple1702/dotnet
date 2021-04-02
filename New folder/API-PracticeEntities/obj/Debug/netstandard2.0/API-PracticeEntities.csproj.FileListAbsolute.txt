@@ -1,9 +1,0 @@
-E:\dotnet\API-PracticeEntities\bin\Debug\netstandard2.0\API-PracticeEntities.deps.json
-E:\dotnet\API-PracticeEntities\bin\Debug\netstandard2.0\API-PracticeEntities.dll
-E:\dotnet\API-PracticeEntities\bin\Debug\netstandard2.0\API-PracticeEntities.pdb
-E:\dotnet\API-PracticeEntities\obj\Debug\netstandard2.0\API-PracticeEntities.csprojAssemblyReference.cache
-E:\dotnet\API-PracticeEntities\obj\Debug\netstandard2.0\API-PracticeEntities.AssemblyInfoInputs.cache
-E:\dotnet\API-PracticeEntities\obj\Debug\netstandard2.0\API-PracticeEntities.AssemblyInfo.cs
-E:\dotnet\API-PracticeEntities\obj\Debug\netstandard2.0\API-PracticeEntities.csproj.CoreCompileInputs.cache
-E:\dotnet\API-PracticeEntities\obj\Debug\netstandard2.0\API-PracticeEntities.dll
-E:\dotnet\API-PracticeEntities\obj\Debug\netstandard2.0\API-PracticeEntities.pdb

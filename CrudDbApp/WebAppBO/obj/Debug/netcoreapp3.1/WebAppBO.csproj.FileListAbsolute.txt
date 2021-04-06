@@ -1,0 +1,14 @@
+F:\CrudDbApp\WebAppBO\bin\Debug\netcoreapp3.1\WebAppBO.deps.json
+F:\CrudDbApp\WebAppBO\bin\Debug\netcoreapp3.1\WebAppBO.dll
+F:\CrudDbApp\WebAppBO\bin\Debug\netcoreapp3.1\WebAppBO.pdb
+F:\CrudDbApp\WebAppBO\bin\Debug\netcoreapp3.1\WebAppDO.dll
+F:\CrudDbApp\WebAppBO\bin\Debug\netcoreapp3.1\WebAppDO.pdb
+F:\CrudDbApp\WebAppBO\obj\Debug\netcoreapp3.1\WebAppBO.csprojAssemblyReference.cache
+F:\CrudDbApp\WebAppBO\obj\Debug\netcoreapp3.1\WebAppBO.AssemblyInfoInputs.cache
+F:\CrudDbApp\WebAppBO\obj\Debug\netcoreapp3.1\WebAppBO.AssemblyInfo.cs
+F:\CrudDbApp\WebAppBO\obj\Debug\netcoreapp3.1\WebAppBO.csproj.CoreCompileInputs.cache
+F:\CrudDbApp\WebAppBO\obj\Debug\netcoreapp3.1\WebAppBO.csproj.CopyComplete
+F:\CrudDbApp\WebAppBO\obj\Debug\netcoreapp3.1\WebAppBO.dll
+F:\CrudDbApp\WebAppBO\obj\Debug\netcoreapp3.1\WebAppBO.pdb
+F:\CrudDbApp\WebAppBO\bin\Debug\netcoreapp3.1\WebAppEntities.dll
+F:\CrudDbApp\WebAppBO\bin\Debug\netcoreapp3.1\WebAppEntities.pdb

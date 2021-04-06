@@ -1,0 +1,9 @@
+F:\CrudDbApp\WebAppEntities\bin\Debug\netstandard2.0\WebAppEntities.deps.json
+F:\CrudDbApp\WebAppEntities\bin\Debug\netstandard2.0\WebAppEntities.dll
+F:\CrudDbApp\WebAppEntities\bin\Debug\netstandard2.0\WebAppEntities.pdb
+F:\CrudDbApp\WebAppEntities\obj\Debug\netstandard2.0\WebAppEntities.csprojAssemblyReference.cache
+F:\CrudDbApp\WebAppEntities\obj\Debug\netstandard2.0\WebAppEntities.AssemblyInfoInputs.cache
+F:\CrudDbApp\WebAppEntities\obj\Debug\netstandard2.0\WebAppEntities.AssemblyInfo.cs
+F:\CrudDbApp\WebAppEntities\obj\Debug\netstandard2.0\WebAppEntities.csproj.CoreCompileInputs.cache
+F:\CrudDbApp\WebAppEntities\obj\Debug\netstandard2.0\WebAppEntities.dll
+F:\CrudDbApp\WebAppEntities\obj\Debug\netstandard2.0\WebAppEntities.pdb

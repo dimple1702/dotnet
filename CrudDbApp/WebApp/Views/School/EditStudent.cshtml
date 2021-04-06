@@ -1,0 +1,103 @@
+﻿@using WebAppEntities.Entities;
+@model Student
+
+@{
+    ViewData["Title"] = "EditStudent";
+
+    var tempList = new List<SelectListItem>();
+    int index = 1;
+
+
+    foreach (var item in ViewBag.Address)
+    {
+        tempList.Add(new SelectListItem() { Text = item, Value = index.ToString() });
+        index++;
+    }
+    var items = tempList;
+
+
+    var tempList2 = new List<SelectListItem>();
+    int index2 = 1;
+
+
+    foreach (var item in ViewBag.TeacherName)
+    {
+        tempList2.Add(new SelectListItem() { Text = item, Value = index2.ToString() });
+        index2++;
+    }
+    var items2 = tempList2;
+}
+<style>
+    .makewide {
+        height: 37px;
+        width: 350px;
+        margin-left: -16px;
+        border: 1px solid #ced4da;
+    }
+</style>
+
+<h1>Edit Student</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditStudent">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StudentId" class="control-label"></label>
+                <input asp-for="StudentId" class="form-control" />
+                <span asp-validation-for="StudentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentFname" class="control-label"></label>
+                <input asp-for="StudentFname" class="form-control" />
+                <span asp-validation-for="StudentFname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentLname" class="control-label"></label>
+                <input asp-for="StudentLname" class="form-control" />
+                <span asp-validation-for="StudentLname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentEmail" class="control-label"></label>
+                <input asp-for="StudentEmail" class="form-control" />
+                <span asp-validation-for="StudentEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentPhoneNo" class="control-label"></label>
+                <input asp-for="StudentPhoneNo" class="form-control" />
+                <span asp-validation-for="StudentPhoneNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentDob" class="control-label"></label>
+                <input asp-for="StudentDob" class="form-control" />
+                <span asp-validation-for="StudentDob" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.TeacherId)
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.TeacherId, items2, "Select Teacher", htmlAttributes: new { @class = "makewide" })
+                    @Html.ValidationMessageFor(model => model.TeacherId, "", new { id = "Design_ErrorMessage", @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.LocId)
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.LocId, items, "Select Location", htmlAttributes: new { @class = "makewide" })
+                    @Html.ValidationMessageFor(model => model.LocId, "", new { id = "Design_ErrorMessage", @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="StudentList">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

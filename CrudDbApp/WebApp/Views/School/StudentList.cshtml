@@ -1,0 +1,99 @@
+﻿@using WebAppEntities.Entities;
+@model IEnumerable<Student>
+
+@{
+    ViewData["Title"] = "StudentList";
+    var PageNo = ViewBag.PageNumber;
+    var totalPages = ViewBag.TotalPages;
+    var order = ViewBag.Order;
+}
+
+<h1 style="text-align:center">Student List</h1>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentFname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentLname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentDob)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentFname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentLname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentEmail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentDob)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditStudent", new { id = item.StudentId }) |
+                    @Html.ActionLink("Details", "ViewStudent", new { id = item.StudentId }) |
+                    @Html.ActionLink("Delete", "DeleteStudent", new { id = item.StudentId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    <ul class="pagination d">
+        @if (PageNo == 1)
+        {
+            <li class="disabled p-2">
+                @Html.ActionLink("Previous", "StudentList", new { Order = order, PageNumber = PageNo })
+            </li>
+        }
+        else
+        {
+            <li class="p-2">
+                @Html.ActionLink("Previous", "StudentList", new { Order = order, PageNumber = PageNo - 1 })
+            </li>
+        }
+        @for (int i = 1; i < totalPages; i++)
+        {
+            if (i == PageNo)  // to show active page number-- Not working RN
+            {
+                <li class="active p-2">
+                    @Html.ActionLink(i.ToString(), "StudentList", new { Order = order, PageNumber = i })
+                </li>
+            }
+            else
+            {
+                <li class="p-2">
+                    @Html.ActionLink(i.ToString(), "StudentList", new { Order = order, PageNumber = i })
+                </li>
+            }
+        }
+        @if (PageNo == totalPages)
+        {
+            <li class="disabled p-2">
+                @Html.ActionLink("Next", "StudentList", new { Order = order, PageNumber = PageNo })
+            </li>
+        }
+        else
+        {
+            <li class="p-2">
+                @Html.ActionLink("Next", "StudentList", new { Order = order, PageNumber = PageNo + 1 })
+            </li>
+        }
+    </ul>
+}

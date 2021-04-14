@@ -1,0 +1,30 @@
+<div class="container">
+    <h1 class="text-center p-3">Library Books</h1>
+
+    <button class="btn btn-primary mx-4"><a href="#" [routerLink]="['/addnewbook']"
+            style="text-decoration: none; color: white;">ADD A NEW BOOK</a></button>
+    <button class="btn btn-primary"><a href="#" [routerLink]="['/manageOwner']"
+            style="text-decoration: none; color: white;">Manage Owners</a></button>
+    <div class="row p-3">
+        <table class="table table-striped border-secondary">
+            <thead class="lead">
+                <tr>
+                    <th scope="col">Book Name</th>
+                    <th scope="col">Author Name</th>
+                    <th scope="col">Price</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let book of bookList">
+                    <td>{{book.bookName}}</td>
+                    <td>{{book.bookAuthor}}</td>
+                    <td>{{book.bookPrice}}</td>
+                    <td><button class="btn btn-success" style="width: 100%;" (click)="EditBook(book.bookId)">EDIT</button></td>
+                    <td><button class="btn btn-danger" style="width: 100%;" (click)="DeleteBook(book.bookId)">DELETE</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

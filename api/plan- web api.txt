@@ -1,0 +1,59 @@
+Database- Digital Book Store
+
+-- Owners- OwnerId, Username, Password
+Visitors- VisitorId, VisitorName, VisitorAddress, VisitorEmail, VisitorPassword --
+
+User- UserId, UserName, UserPassword, UserEmail, UserAddress, IsOwner
+BooksIssued - Key, UserId, BookId, IsActive 
+Books- BookId, BookName, BookAuthor, BookSummary
+Comments - CommentId, BookId, UserId, Comment 
+
+Page1 - Login/Signup
+- User can login/signup 
+--> Validation: login- username doesn't exist --> signup
+                 : signup - username already exist --> login
+--> Client side/Server side validation
+--> password encrypt
+
+- Owner:
+->Add/Update/Delete/Edit books
+->Add new Owner/or existing user to owner
+-> Main Page-- Books list--> CRUD Operation 
+	    -- Owner List -> Manage Co-owner - add owner 
+
+	    
+Visitor 
+-> MainPage -- Global BookList -- add to my booklist(user click on any book, its id goes to the method addToMyList and it will add an row to our UserBook table only accrding to our visitor that is logged in
+)
+	    -- Mybooklist-- read book, remove from mybooklist
+	    -- Read Book -- viewcomments -> addcomment
+
+
+bid bnaem ... .... add --> Userbook bid uid(logged in?) 
+comment.. 
+
+
+
+===Pages===
+Login --
+SignUp --
+OwnerMainPage --
+AddBook --
+ManageCo-Owner -- 
+Add Co-owner --
+VisitorMainPage --
+MyBookList --
+ReadBook
+AddComment 
+
+
+-- userId?? from where for Visitor's API's
+-- RemoveOwner function no working
+
+
+??????????
+
+userId on visitor-book-list is hardcoded
+
+
+

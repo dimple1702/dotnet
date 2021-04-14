@@ -21,7 +21,7 @@ namespace ApiPractice.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "dev")]
+        [Authorize(Roles = "dev, Developer")]
         public IActionResult TicketList()
         {
             var list = _apiPracticeBusinessComponent.GetTickets();

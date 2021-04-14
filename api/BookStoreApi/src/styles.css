@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background: linear-gradient(to bottom left, #ffcccc 0%, #ccff66 100%);
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(54, 17, 17);
+}

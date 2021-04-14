@@ -1,0 +1,11 @@
+<p class="lead" style="font-weight: bold;">Comments</p>
+
+<ul *ngFor="let comment of comments">
+    <li>
+        <b class="px-3">{{comment.userFullName}} : </b>
+        <i>{{comment.comment}}</i>
+    </li>
+</ul>
+
+<button class="btn btn-success" (click)="switchVisibility()">Add Comments</button><br />
+<app-add-comments *ngIf="isVisible" [id]=id></app-add-comments>

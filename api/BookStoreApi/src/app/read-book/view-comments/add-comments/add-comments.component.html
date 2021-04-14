@@ -1,0 +1,13 @@
+<p>add-comments works!</p>
+<form [formGroup]="newComment" (ngSubmit)="AddComment(newComment.get('comment'))" class="container-fluid ">
+    <div class="form-group p-2">
+        <input class='form-control' type='text' id='comment' placeholder="Please enter your comment" formControlName='comment' [ngClass]="{'is-invalid':newComment.get('comment').invalid && newComment.get('comment').touched}">
+        <div class='invalid-feedback' *ngIf="newComment.get('comment').errors">
+            <div *ngIf="newComment.get('comment').errors.required">Please enter Comment</div>
+            <div *ngIf="newComment.get('comment').errors.minlength">Comment must be of at least 10 characters</div>
+        </div>
+        <div class="form-group p-2">
+            <button class="btn btn-primary" type="submit" [disabled]="newComment.invalid">LOGIN</button>
+        </div>
+    </div>
+</form>

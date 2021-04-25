@@ -13,8 +13,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AddNewBookComponent } from './add-new-book/add-new-book.component';
 import { AddCoOwnerComponent } from './add-co-owner/add-co-owner.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { ToastrModule } from 'ngx-toastr';
 import { MyBookListComponent } from './my-book-list/my-book-list.component';
 import { EditBookComponent } from './edit-book/edit-book.component';
 import { ReadBookComponent } from './read-book/read-book.component';
@@ -44,9 +42,7 @@ import { AddCommentsComponent } from './read-book/view-comments/add-comments/add
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    NgbModule,
-    BrowserAnimationsModule,
-    ToastrModule.forRoot()
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

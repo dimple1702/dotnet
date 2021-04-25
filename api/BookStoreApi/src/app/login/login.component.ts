@@ -27,8 +27,13 @@ export class LoginComponent implements OnInit {
     })
   }
 
-  LoginUser(){
-    alert("Logged In")
+  LoginUser(form : NgForm){
+    this.service.Login(form).subscribe(
+      res=>{
+        
+      },
+      err=>{}
+    )
   }
 
 }

@@ -12,7 +12,7 @@ export class ViewCommentsComponent implements OnInit {
 
   @Input() id : number | any;
   comments : any;
-  isVisible: boolean = true;
+  isVisible: boolean = false;
   
   constructor(public service: VisitorsService, private router : Router) { }
   

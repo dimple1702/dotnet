@@ -11,8 +11,8 @@ import { VisitorsService } from 'src/app/Services/visitors.service';
 })
 export class AddCommentsComponent implements OnInit {
 
-  @Input() id : number|any;
-  
+  @Input() id: number | any;
+
   newComment: any;
   isValidFormSubmitted = null;
 
@@ -21,20 +21,21 @@ export class AddCommentsComponent implements OnInit {
 
   ngOnInit(): void {
     this.newComment = this.fb.group({
-      comment : ['', [Validators.required, Validators.minLength(10)]],
+      comment: ['', [Validators.required, Validators.minLength(10)]],
     })
   }
 
-  AddComment(comment: any){
+  AddComment(comment: any) {
     console.log(this.id + " " + comment);
     this.service.AddBookComment(3, this.id, comment).subscribe(
-      res =>{
+      res => {
         console.log("Adddeddd");
       },
       err => {
         console.log(err);
       }
     )
+    window.location.reload();
   }
 
 }

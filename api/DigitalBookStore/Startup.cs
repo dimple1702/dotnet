@@ -31,6 +31,7 @@ namespace DigitalBookStore
             services.AddDbContext<BookStoreDb>(options =>
                  options.UseSqlServer(Configuration.GetConnectionString("DbContextEntities")));
             services.AddCors();
+            services.AddDataProtection();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

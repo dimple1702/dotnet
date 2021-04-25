@@ -14,8 +14,9 @@ export class AccountService {
   readonly signupURL : any = "http://localhost:57791/api/Account/SignUp";
   formData : User = new User();
 
-  Login(){
-    return this.http.post(this.loginURL,this.formData);
+  Login(form : any){
+    console.log("valuess??? "+form.value);
+    return this.http.post(this.loginURL, this.formData);
   }
 
   Signup(form : User | any){

@@ -7,21 +7,16 @@ import { Injectable } from '@angular/core';
 export class OwnerService {
 
   constructor(private http:HttpClient) { }
-
-  readonly getUser : any = "http://localhost:57791/api/Account/GetUser";
-  readonly getOwnerList : any = "http://localhost:57791/api/Account/GetOwnerList";
-  readonly getNonOwnerList : any = "http://localhost:57791/api/Account/GetNonOwnerList";
-  readonly addOwner : any = "http://localhost:57791/api/Account/AddOwner";
-  readonly removeOwner : any = "http://localhost:57791/api/Account/RemoveOwner";
+  readonly url : any = 'http://localhost:57791/api/Account';
 
 
   GetOwnerList(){
-    return this.http.get(this.getOwnerList);
+    return this.http.get(this.url + '/GetOwnerList');
   }
 
   GetNonOwnerList(){
     console.log("Non Owner Method in service..");
-    return this.http.get(this.getNonOwnerList);
+    return this.http.get(this.url + '/GetNonOwnerList');
   }
 
   AddOwner(ownerId : number){
@@ -30,7 +25,7 @@ export class OwnerService {
        Id:ownerId.toString()
       }
     });
-    return this.http.get(this.addOwner, {params:httpParams});
+    return this.http.get(this.url + '/AddOwner', {params:httpParams});
   }
 
   RemoveOwner(owner : number){
@@ -39,7 +34,7 @@ export class OwnerService {
        userId:owner.toString()
       }
     });
-    return this.http.get(this.removeOwner, {params:httpParams});
+    return this.http.get(this.url + '/RemoveOwner', {params:httpParams});
   }
 }
 

@@ -9,7 +9,7 @@
         <div class="border border-secondary">
             <h2 class="text-center pt-3">Login</h2>
             <p class=" text-center">It's quick and easy</p>
-            <form [formGroup]="loginForm" (ngSubmit)="LoginUser()" class="container-fluid ">
+            <form [formGroup]="loginForm" (ngSubmit)="LoginUser(loginForm)" class="container-fluid ">
                 <div class="form-group p-2">
                     <input class='form-control' type='text' id='userName' placeholder="Please enter your Email" formControlName='userName' [ngClass]="{'is-invalid':loginForm.get('userName').invalid && loginForm.get('userName').touched}">
                     <div class='invalid-feedback' *ngIf="loginForm.get('userName').errors">

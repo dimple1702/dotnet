@@ -1,5 +1,4 @@
-<p>add-comments works!</p>
-<form [formGroup]="newComment" (ngSubmit)="AddComment(newComment.get('comment'))" class="container-fluid ">
+<form [formGroup]="newComment" (ngSubmit)="AddComment(newComment)" class="container-fluid ">
     <div class="form-group p-2">
         <input class='form-control' type='text' id='comment' placeholder="Please enter your comment" formControlName='comment' [ngClass]="{'is-invalid':newComment.get('comment').invalid && newComment.get('comment').touched}">
         <div class='invalid-feedback' *ngIf="newComment.get('comment').errors">

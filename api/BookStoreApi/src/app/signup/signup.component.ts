@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, NgForm, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { ToastrService } from 'ngx-toastr';
 import { User } from '../Models/user.model';
 import { AccountService } from '../Services/accounts.service';
 
@@ -19,7 +18,7 @@ export class SignupComponent implements OnInit {
   isValidFormSubmitted = null;
 
   constructor(private fb: FormBuilder, public service : AccountService, 
-      private router : Router, private toastr : ToastrService) { }
+      private router : Router) { }
 
 
   ngOnInit() {
@@ -36,15 +35,10 @@ export class SignupComponent implements OnInit {
      console.log("aage g aage" + form.value);
       this.service.Signup(form).subscribe(
         res => {
-          this.resetForm(form.value);
-          this.toastr.success("You have signed up successfully!! ","Please login to move further");
-        },
+           },
         err => {console.log(err);}
       );
   }
 
-  resetForm(form : NgForm){
-    form.form.reset();
-    this.service.formData = new User()
-  }
+  
 }

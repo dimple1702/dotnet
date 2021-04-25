@@ -1,12 +1,18 @@
 ﻿using DigitalBookStore.Common;
 using DigitalBookStore.CustomEntities;
 using DigitalBookStore.Entities;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
+using System.Text;
 
 namespace DigitalBookStore.Controllers
 {
@@ -15,32 +21,65 @@ namespace DigitalBookStore.Controllers
     public class AccountController : ControllerBase
     {
         private readonly BookStoreDb _bookStoreDb;
-        public AccountController(BookStoreDb bookStoreDb)
+        private readonly IDataProtector _protector;
+        public AccountController(BookStoreDb bookStoreDb, IDataProtectionProvider provider)
         {
             _bookStoreDb = bookStoreDb;
+            _protector = provider.CreateProtector("mysecretkey");
         }
 
         [HttpPost]
         public IActionResult Login(User userModel)  // Account
         {
-            var user = _bookStoreDb.Users.Where(x => x.UserName == userModel.UserName && x.Password == userModel.Password).FirstOrDefault();
-            if (user == null)
-                return BadRequest(new { message = "Username doesn't exist!!" });
-            return Ok(user);
-        }
+            //var user = _bookStoreDb.Users.Where(x => x.UserName == userModel.UserName).FirstOrDefault();
+
+            //string unprotectedPass = _protector.Unprotect(user.Password.ToString());
+
+            //if (string.Compare(userModel.Password, unprotectedPass) == 0)
+            //{
+            //    Console.WriteLine("hereee");
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("hereee");
+            //}
+
+            //if (user != null && string.Compare(userModel.Password, unprotectedPass) == 0)
+            //{
+
+                //    string role = CommonMethods.getRoleType((int)user.IsOwner);
+                //    var tokenDescriptor = new SecurityTokenDescriptor
+                //    {
+                //        Subject = new ClaimsIdentity(new Claim[]
+                //        {
+                //            new Claim("UserID",user.UserId.ToString()),
+                //            new Claim(ClaimTypes.Role,role) // from user.Role (enum)
+
+                //        }),
+                //        Expires = DateTime.UtcNow.AddDays(1),
+                //        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes("1234562122189012345")), SecurityAlgorithms.HmacSha256Signature)
+                //    };
+                //    var tokenHandler = new JwtSecurityTokenHandler();
+                //    var securityToken = tokenHandler.CreateToken(tokenDescriptor);
+                //    var token = tokenHandler.WriteToken(securityToken);
+                //    return Ok(new { token });
+                //}
+                //else
+                //    return BadRequest(new { message = "Username or password is incorrect." });
+                var user = _bookStoreDb.Users.Where(x => x.UserName == userModel.UserName && x.Password == userModel.Password).FirstOrDefault();
+                if (user == null)
+                    return BadRequest(new { message = "Username doesn't exist!!" });
+                return Ok(user);
+            }
 
         [HttpPost]
         public IActionResult SignUp(User userModel)  // Account
         {
-            User user = new User();
+            //string encyptedPassword = _protector.Protect(userModel.Password.ToString());
+            //userModel.Password = encyptedPassword;
 
-            user.UserName = userModel.UserName;
-            user.UserFullName = userModel.UserFullName;
-            user.IsOwner = userModel.IsOwner;
-            user.UserAddress = userModel.UserAddress;
-            user.Password = userModel.Password;         // TODO: Password to be encrypted here and at line 21, we again need to decrypt the passwrd
-
-            _bookStoreDb.Users.Add(user);
+            _bookStoreDb.Users.Add(userModel);
             _bookStoreDb.SaveChanges();
             return Ok(); 
         }
@@ -163,7 +202,7 @@ namespace DigitalBookStore.Controllers
 
         [HttpGet]
         public IActionResult AddBookComment(long userId, long bookId, string comment)       //visitor
-        {
+                {
             BookComment obj = new BookComment()
             {
                 UserId = userId,

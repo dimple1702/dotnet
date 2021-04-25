@@ -1,0 +1,50 @@
+Description:
+   Create an online restaurant website for ordering food and booking table. HTML templates are attached(zip format) in this assignment. This is
+   strongly recommended that you should only use these template files. Please read the important instructions at the bottom
+   before you start development work.
+
+Tasks -
+
+1.table reservation : 
+Create a page where user can enter name, number of people, date to reserve table 
+and Add a button just below the input button to create reservation.
+and reservation created open a page with payment is successfully!. plz refer reservation.html
+
+2.view ordered item:
+create a page where user can view their order with item name, price and 
+categories. plz refer order-view.html
+
+3.payment of order:
+create a page where user can enter email, address, phone, select method payment, amount
+and add a button just below the pay now. and after processing it show message payment is successfully!.
+plz refer pay-order.html.
+
+4.food order:
+create a page where list of all item available.with list of item their name, price, categories
+should also available and below the item button 'order now' which create order.after click of 'order now'
+a page will open which contains detail of your order. plz refer menu.html
+
+5. show menu of restaurant:
+create a page where we can see menu of items. and menu contains these items only:
+['Bake burger Pizza', 'Bake Sandwich Pizza', 'Salted Fried Chicken', 'Bake Muffin', 'Italian Sauce Mushroom', 
+'Bake Muffin Pizza', 'Fried Potato w/ Garlic', 'Bake Potato Pizza']. plz refer menu.html
+
+
+
+IMPORTANT INSTRUCTIONS
+1. Do not remove CSS class or id attribute and their values if they start with automation- prefix. But you can add another
+class or id(if absent) if needed. Do not change any text message inside a tag, if it has id or class that starts with
+automation-message- prefix.
+2. Dockerize your application. But docker-compose.yml file is not required.
+3. Your application should expose port 5001, eg http:\\localhost:5001
+4. Use only provided HTML templates in the assignment. But you can add any images and stylesheets to make cosmetic changes.
+
+Good Luck!!!
+
+Download templates.zip below.
+
+
+Db
+-- reservation - id, name, number of people, when
+-- food item - id, name, image, price, summary, category(can be another table)
+-- pay- id, email, address, phone number, amount, payment method

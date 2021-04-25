@@ -11,6 +11,7 @@ namespace DigitalBookStore.Entities
         public long BookId { get; set; }
         public long UserId { get; set; }
         public string Comment { get; set; }
+
         public virtual Book Book { get; set; }
         public virtual User User { get; set; }
     }

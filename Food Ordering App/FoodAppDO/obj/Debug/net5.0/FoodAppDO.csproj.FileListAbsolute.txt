@@ -1,0 +1,15 @@
+E:\dotnet\Food Ordering App\FoodAppDO\bin\Debug\net5.0\FoodAppDO.deps.json
+E:\dotnet\Food Ordering App\FoodAppDO\bin\Debug\net5.0\FoodAppDO.dll
+E:\dotnet\Food Ordering App\FoodAppDO\bin\Debug\net5.0\ref\FoodAppDO.dll
+E:\dotnet\Food Ordering App\FoodAppDO\bin\Debug\net5.0\FoodAppDO.pdb
+E:\dotnet\Food Ordering App\FoodAppDO\bin\Debug\net5.0\FoodAppEntity.dll
+E:\dotnet\Food Ordering App\FoodAppDO\bin\Debug\net5.0\FoodAppEntity.pdb
+E:\dotnet\Food Ordering App\FoodAppDO\obj\Debug\net5.0\FoodAppDO.csprojAssemblyReference.cache
+E:\dotnet\Food Ordering App\FoodAppDO\obj\Debug\net5.0\FoodAppDO.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet\Food Ordering App\FoodAppDO\obj\Debug\net5.0\FoodAppDO.AssemblyInfoInputs.cache
+E:\dotnet\Food Ordering App\FoodAppDO\obj\Debug\net5.0\FoodAppDO.AssemblyInfo.cs
+E:\dotnet\Food Ordering App\FoodAppDO\obj\Debug\net5.0\FoodAppDO.csproj.CoreCompileInputs.cache
+E:\dotnet\Food Ordering App\FoodAppDO\obj\Debug\net5.0\FoodAppDO.csproj.CopyComplete
+E:\dotnet\Food Ordering App\FoodAppDO\obj\Debug\net5.0\FoodAppDO.dll
+E:\dotnet\Food Ordering App\FoodAppDO\obj\Debug\net5.0\ref\FoodAppDO.dll
+E:\dotnet\Food Ordering App\FoodAppDO\obj\Debug\net5.0\FoodAppDO.pdb

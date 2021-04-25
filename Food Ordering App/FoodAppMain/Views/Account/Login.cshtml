@@ -1,0 +1,77 @@
+﻿<!-- Bootstrap  -->
+<link href="~/css/bootstrap.css" rel="stylesheet" />
+<!--Custom Style Sheet-->
+<link href="~/css/CustomStyleSheet.css" rel="stylesheet" />
+<!-- Theme style  -->
+<link rel="stylesheet" href="~/css/style.css">
+<!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+@model FoodAppEntity.Entities.User
+@{
+    var message = ViewBag.ErrorMessage;
+    Layout = null;
+}
+<div class="fh5co-loader"></div>
+
+<div id="page">
+    <div id="fh5co-reservation-form" class="fh5co-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="color-white display-3">Login!!</h1>
+                    @using (var form = Html.BeginForm("Login", "Account", FormMethod.Post, new { id = "LoginForm" }))
+                    {
+                        @if (message != null)
+                        {
+                            <div class="error-message">@message</div>
+                        }
+                        <div class="form-group">
+                            @*@Html.Label("EMAIL")*@
+                            @Html.EditorFor(model => model.UserEmail, new { htmlAttributes = new { @class = "form-control automation-name", placeholder = "Enter your Email" } })
+                            @Html.ValidationMessageFor(model => model.UserEmail, "", new { id = "UserEmail_ErrorMessage", @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            @*@Html.Label("PASSWORD")*@
+                            @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control automation-name", type = "Password", placeholder = "Enter your Password" } })
+                            @Html.ValidationMessageFor(model => model.Password, "", new { id = "Password_ErrorMessage", @class = "text-danger" })
+                        </div>
+                        <button type="button" class="btn btn-primary btn-outline btn-lg text-center" onclick="submitForm()">Login</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+</div>
+
+
+
+
+<!-- jQuery -->
+<script src="~/js/jquery.min.js"></script>
+<!--Form Validation file-->
+<script src="~/js/LoginValidation.js"></script>
+<!-- jQuery Easing -->
+<script src="~/js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="~/js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="~/js/jquery.waypoints.min.js"></script>
+<!-- Waypoints -->
+<script src="~/js/jquery.stellar.min.js"></script>
+<!-- Flexslider -->
+<script src="~/js/jquery.flexslider-min.js"></script>
+
+<!-- Date Time -->
+<script src="~/js/moment.min.js"></script>
+<script src="~/js/bootstrap-datetimepicker.js"></script>
+<!-- Main -->
+<script src="~/js/main.js"></script>

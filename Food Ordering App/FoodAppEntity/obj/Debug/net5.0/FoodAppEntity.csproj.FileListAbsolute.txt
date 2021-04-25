@@ -1,0 +1,15 @@
+E:\dotnet\Food Ordering App\FoodAppEntity\bin\Debug\net5.0\FoodAppEntity.deps.json
+E:\dotnet\Food Ordering App\FoodAppEntity\bin\Debug\net5.0\FoodAppEntity.runtimeconfig.json
+E:\dotnet\Food Ordering App\FoodAppEntity\bin\Debug\net5.0\FoodAppEntity.runtimeconfig.dev.json
+E:\dotnet\Food Ordering App\FoodAppEntity\bin\Debug\net5.0\FoodAppEntity.dll
+E:\dotnet\Food Ordering App\FoodAppEntity\bin\Debug\net5.0\ref\FoodAppEntity.dll
+E:\dotnet\Food Ordering App\FoodAppEntity\bin\Debug\net5.0\FoodAppEntity.pdb
+E:\dotnet\Food Ordering App\FoodAppEntity\obj\Debug\net5.0\FoodAppEntity.csprojAssemblyReference.cache
+E:\dotnet\Food Ordering App\FoodAppEntity\obj\Debug\net5.0\FoodAppEntity.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet\Food Ordering App\FoodAppEntity\obj\Debug\net5.0\FoodAppEntity.AssemblyInfoInputs.cache
+E:\dotnet\Food Ordering App\FoodAppEntity\obj\Debug\net5.0\FoodAppEntity.AssemblyInfo.cs
+E:\dotnet\Food Ordering App\FoodAppEntity\obj\Debug\net5.0\FoodAppEntity.csproj.CoreCompileInputs.cache
+E:\dotnet\Food Ordering App\FoodAppEntity\obj\Debug\net5.0\FoodAppEntity.dll
+E:\dotnet\Food Ordering App\FoodAppEntity\obj\Debug\net5.0\ref\FoodAppEntity.dll
+E:\dotnet\Food Ordering App\FoodAppEntity\obj\Debug\net5.0\FoodAppEntity.pdb
+E:\dotnet\Food Ordering App\FoodAppEntity\obj\Debug\net5.0\FoodAppEntity.genruntimeconfig.cache

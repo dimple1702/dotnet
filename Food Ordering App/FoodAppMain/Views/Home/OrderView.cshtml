@@ -1,0 +1,93 @@
+﻿@model IEnumerable<FoodAppEntity.CustomModel.OrderCategoryModel>
+
+<div class="fh5co-loader"></div>
+
+<div id="page">
+    <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
+            style="background-image: url(images/hero_1.jpg);" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="display-t js-fullheight">
+                        <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+                            <h1>See <em>Your</em> Order</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="order-section">
+        <div class="container mt-4 order-view-style">
+            <div class="row">
+                <div class="col-sm-4">
+                    @foreach (var item in Model)
+                    {
+                        <div class="order-preview-img">
+                            <img class="img-responsive set-image" src="@("~/MenuImage/" + item.ItemImage)" asp-append-version="true" />
+                        </div>
+                    }
+                </div>
+                
+                <div class="col-sm-8">
+                    <div class="border-detail">
+                        <div class="product-content">
+                            @foreach (var item in Model)
+                            {
+                                <h1 itemprop="name" class="product-title" style="color:#eee">
+                                    @Html.DisplayFor(modelItem => item.ItemName)
+                                </h1>
+                                <div class="price-sku-brand-container">
+                                    <div class="product-sku" style="color:#eee">
+                                        <span class="sku-text">Sku :</span>
+                                        <span itemprop="sku" class="sku">@Html.DisplayFor(modelItem => item.ItemName)</span>
+                                    </div>
+                                    <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"
+                                         class="product-price-container" style="color:#eee">
+                                        <span class="price-title">Price: </span>
+                                        <span class="sale-price">
+                                            @Html.DisplayFor(modelItem => item.Price)
+                                        </span>
+                                        <meta itemprop="price" content="100.00000">
+                                        <meta itemprop="priceCurrency" content="USD">
+
+                                    </div>
+                                    <div class="category-title">
+                                        <span class="cat-title" style="color:#eee">Category: </span>
+                                        <span class="cat-name">
+                                            <a href="/yummy/index.php/gallery?filter_catid=12" style="color:red">@Html.DisplayFor(modelItem => item.CategoryName)</a>
+                                        </span>
+                                    </div>
+                                    <p>
+                                        <button class="btn btn-primary btn-outline automation-pay-order margin-set" >@Html.ActionLink("Pay Now", "PayOrder", new { menuId = item.MenuId })</button>
+                                    </p>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="~/js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="~/js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="~/js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="~/js/jquery.waypoints.min.js"></script>
+<!-- Waypoints -->
+<script src="~/js/jquery.stellar.min.js"></script>
+<!-- Flexslider -->
+<script src="~/js/jquery.flexslider-min.js"></script>
+<!-- Main -->
+<script src="~/js/main.js"></script>

@@ -1,0 +1,89 @@
+﻿@model FoodAppEntity.Entities.PaymentDetails
+@{
+    var amount = ViewBag.Amount;
+    var list = ViewBag.list;
+}
+<div class="fh5co-loader"></div>
+
+<div id="page">
+    <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
+            style="background-image: url(images/hero_1.jpg);" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="display-t js-fullheight">
+                        <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+                            <h1>Pay Order</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="pay-order mt-4">
+        <div class="container pay-order-form">
+            <h2 class="error-message display-1">You are required to pay $@ViewBag.Amount</h2>
+            @using (var form = Html.BeginForm("PaymentSuccessful", "Home", FormMethod.Post, new { id = "PaymentForm" }))
+            {
+                <div class="form-group">
+                    @Html.Label("EMAIL")
+                    @Html.EditorFor(model => model.UserEmailAddress, new { htmlAttributes = new { @class = "form-control automation-name" } })
+                    @Html.ValidationMessageFor(model => model.UserEmailAddress, "", new { id = "UserEmailAddress_ErrorMessage", @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.Label("RESIDENCE ADDRESS")
+                    @Html.EditorFor(model => model.UserResidenceAddress, new { htmlAttributes = new { @class = "form-control automation-name" } })
+                    @Html.ValidationMessageFor(model => model.UserResidenceAddress, "", new { id = "UserResidenceAddress_ErrorMessage", @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.Label("PHONE NO")
+                    @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control automation-name" } })
+                    @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { id = "PhoneNumber_ErrorMessage", type = "Number", @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.Label("PAYMENT METHOD")
+                    @Html.DropDownListFor(model => model.PaymentMethod,
+                        new List<SelectListItem> {
+                             new SelectListItem { Value = "Paytm" , Text = "Cash" },
+                             new SelectListItem { Value = "Paytm" , Text = "Card" },
+                             new SelectListItem { Value = "Paytm" , Text = "Paytm" },
+                             new SelectListItem { Value = "RazorPay" , Text = "RazorPay" },
+                             new SelectListItem { Value = "GPay" , Text = "GPay" }
+                        },
+                        new { @class = "form-control automation-name" })
+                    @Html.ValidationMessageFor(model => model.PaymentMethod, "", new { id = "PaymentMethod_ErrorMessage", @class = "text-danger" })
+
+                </div>
+              
+                <button type="button" class="btn btn-primary btn-outline btn-lg text-center" onclick="submitForm()">Pay Order</button>
+                <button class="btn btn-primary btn-outline btn-lg text-center color-white">@Html.ActionLink("Cancel Order", "OrderHistory")</button>
+
+            }
+        </div>
+    </div>
+</div>
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="~/js/jquery.min.js"></script>
+<!--Validation-->
+<script src="~/js/PayOrderValidation.js"></script>
+<!-- jQuery Easing -->
+<script src="~/js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="~/js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="~/js/jquery.waypoints.min.js"></script>
+<!-- Waypoints -->
+<script src="~/js/jquery.stellar.min.js"></script>
+<!-- Flexslider -->
+<script src="~/js/jquery.flexslider-min.js"></script>
+<!-- Main -->
+<script src="~/js/main.js"></script>

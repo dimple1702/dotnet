@@ -1,0 +1,61 @@
+﻿.error-message {
+    color: #EA272D;
+    font-style: italic;
+}
+
+.color-white{
+    color: #eee;
+}
+
+.margin-set{
+    margin-top : 10px;
+    margin-bottom :10px;
+}
+.page-link {
+    color: #4c4c4c;
+}
+.set-position{
+    position: static;
+}
+.pay-order-form{
+    margin-top: 30px;
+}
+.order-view-style{
+    margin-top: 70px;
+}
+.set-image{
+    padding: 35px;
+}
+.border-detail{
+    border : 5px solid #eee;
+    padding: 30px;
+    width: 75%;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #EA272D;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+    background-color: #EA272D;
+    color: white;
+    border: 1px solid #EA272D;
+}
+
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #EA272D;
+}
